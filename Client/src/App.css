@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.JoCh{
+    color: #9dc2bf;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.in01{
+margin: 1rem;
+padding: 0.5rem;
+border-radius: 0.5rem;
+border: 1px solid #9dc2bf;
+}
+.in01:active{
+    border: 2px solid #9dc2bf;
+}
+.in01:focus{
+    border: 2px solid #9dc2bf;
+}
+.in02{
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #9dc2bf;
+}
+
+.btn{
+    background-color: #9dc2bf;
+}
+.btn:active{
+  box-shadow: #e4bfb1;
+  background-color: #e4bfb1;
+}
